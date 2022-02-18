@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: #c5c5c5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main-box {
+  padding: 2rem;
+}
+.row {
+  display: flex;
+}
+.col-3 {
+  flex: 0 0 25%;
+}
+.col-9 {
+  flex: 0 0 75%;
+  padding-left: 20px;
+}
+.workout {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d7d7d7;
+}
+.workout-box {
+  display: flex;
+  align-items: flex-end;
+}
+.green {
+  background: #0f763d;
+}
+.location {
+  content: "You are here";
+  position: absolute;
+  background: url(images/map-mark.svg) bottom center no-repeat;
+  width: 100px;
+  height: 100px;
+  top: 220px;
+  left: 102px;
+  color: #000;
+  font-size: 12px;
+}
